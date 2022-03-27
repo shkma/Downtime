@@ -8,9 +8,7 @@ Prepared by:
 Shoma Kitayama (s.kitayama@leeds.ac.uk) - University of Leeds
 
 Checked by:
-Enrique Abel Morales Moncayo (eamorales5@espe.edu.ec) - Universidad de las Fuerzas Armadas (ESPE)
-
-Anastasia Athanasiou (anaj.athanasiou@gmail.com) - Concordia University
+Enrique Abel Morales Moncayo (eamorales5@espe.edu.ec) - Universidad de las Fuerzas Armadas (ESPE); Anastasia Athanasiou (anaj.athanasiou@gmail.com) - Concordia University
 
 # Log
 
