@@ -117,25 +117,25 @@ for i_RP = 1 : NumIM
     
     % Location of folder that contains the data for analysis (change this depending on location of analysis files)
     if     i_RP == 1  % (RP=   43 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=43');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=43');
     elseif i_RP == 2  % (RP=  144 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=144');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=144');
     elseif i_RP == 3  % (RP=  289 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=289');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=289');
     elseif i_RP == 4  % (RP=  475 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=475');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=475');
     elseif i_RP == 5  % (RP=  949 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=949');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=949');
     elseif i_RP == 6  % (RP=  1485 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=1485');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=1485');
     elseif i_RP == 7  % (RP=  2475 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=2475');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=2475');
     elseif i_RP == 8  % (RP=  3899 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=3899');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=3899');
     elseif i_RP == 9  % (RP=  7462 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=7462');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=7462');
     elseif i_RP == 10 % (RP= 10000 yrs)
-       DataFolder = strcat('PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=10000');
+       DataFolder = strcat('PEER_GroundMotionData/PEER_GroundMotionData_T=', num2str(Period_T,'%5.3f'), 'sec_PR=10000');
     end
         
         for i_gm = 1 : NumGM
@@ -148,9 +148,9 @@ for i_RP = 1 : NumIM
             % if there is numerical stability problem (analysis terminates)
                 
                 % % Load 'NumberGMpoint.txt' to be used in parametric study
-                load( strcat('../', strcat(char(DataFolder), '/', 'NumberGMpoint.txt') ) );
+                load( strcat(strcat(char(DataFolder), '/', 'NumberGMpoint.txt') ) );
                 % % Load 'TimeStepGM.txt' to be used in parametric study
-                load( strcat('../', strcat(char(DataFolder), '/', 'TimeStepGM.txt') ) );
+                load( strcat(strcat(char(DataFolder), '/', 'TimeStepGM.txt') ) );
                 % % Calculate max duration of ground motion
                 endTime_GM = NumberGMpoint(i_gm) * TimeStepGM(i_gm); % Max duration of ground motion
                 
@@ -856,7 +856,7 @@ dlmwrite(strcat('Downtime_Total_RP_Slow.txt'),  Downtime_Total_RP_Slow,  'delimi
 % ----------------------------------------------------------------------------
 fprintf(strcat('Compute Expected Annual Down Time (EADT) - - - - -  \n'));
 
-HazardCurveData  =  load(strcat(char(HazardCurve_Name))); % Load selected seismic hazard data (differs per each period - system)
+HazardCurveData  =  load(strcat('Seismic_Hazard_Data/',char(HazardCurve_Name))); % Load selected seismic hazard data (differs per each period - system)
 
 Sa_1=zeros(length(Sa_T1)+1,1); Sa_2=zeros(length(Sa_T1)+1,1);
 
@@ -1002,7 +1002,7 @@ dlmwrite(strcat('Loss_Total_RP_Slow.txt'),      Loss_Total_RP_Slow,   'delimiter
 % ----------------------------------------------------------------------------
 fprintf(strcat('Compute Expected Annual Loss due to DOWN TIME (EADTL) - - - - -  \n'));
 
-HazardCurveData  =  load(strcat(char(HazardCurve_Name))); % Load selected seismic hazard data (differs per each period - system)
+HazardCurveData  =  load(strcat('Seismic_Hazard_Data/',char(HazardCurve_Name))); % Load selected seismic hazard data (differs per each period - system)
 
 Sa_1=zeros(length(Sa_T1)+1,1); Sa_2=zeros(length(Sa_T1)+1,1);
 
