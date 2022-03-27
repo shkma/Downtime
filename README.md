@@ -4,11 +4,11 @@ This page is the online repository for the following submitted manuscript: Shoma
  
 This repository contains downtime assessment files programmed in MATLAB (version 9.10.0.1649659 (R2021a) Update 1; The MathWorks, Inc).
 
-Prepared by:
+<b>Prepared by:</b>
 
 Shoma Kitayama (s.kitayama@leeds.ac.uk) - University of Leeds
 
-Checked by:
+<b>Checked by:</b>
 
 Enrique Abel Morales Moncayo (eamorales5@espe.edu.ec) - Universidad de las Fuerzas Armadas (ESPE)
 
