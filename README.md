@@ -35,4 +35,4 @@ The downloaded data (i.e., a folder, after extraction of zip file, "Response_ana
 
 The zip file should be extracted to get a folder that contains data. The data is the results of analysis of seimically isolated building with SCBF (superstructure is designed per RI=2.0) and with the smallest required isolators (TFP-1) based on ASCE7-16 (2017) seismic design standard.
 
-Please note that one of the MATLAB file "fn_mle_pc.m" used in this folder was obtained from the data set that is associated with the following journal article: Baker JW. (2015). “Efficient analytical fragility function fitting using dynamic structural analysis.” Earthquake Spectra, 31(1), 579-599.
+Please note that one of the MATLAB file "fn_mle_pc.m" used in this folder was obtained from the data set that was associated with the following journal article: Baker JW. (2015). “Efficient analytical fragility function fitting using dynamic structural analysis.” Earthquake Spectra, 31(1), 579-599.
