@@ -1,7 +1,5 @@
 # Downtime Assessment of Seismically Isolated Buildings
 
-This page is the online repository for the following submitted manuscript: Shoma Kitayama, Enrique Abel Morales Moncayo, Anastasia Athanasiou. (Under Review). "Downtime Assessment of Seismically Isolated Buildings Designed by the Procedures of ASCE/SEI 7-16."
- 
 This repository contains downtime assessment files programmed in MATLAB (version 9.10.0.1649659 (R2021a) Update 1; The MathWorks, Inc).
 
 <b>Prepared by:</b>
