@@ -4,13 +4,13 @@ This repository contains downtime assessment files programmed in MATLAB (version
 
 <b>Prepared by:</b>
 
-Shoma Kitayama (s.kitayama@leeds.ac.uk) - University of Leeds
+Shoma Kitayama, Ph.D. (s.kitayama@leeds.ac.uk) - University of Leeds
 
 <b>Checked by:</b>
 
-Enrique Abel Morales Moncayo (eamorales5@espe.edu.ec) - Universidad de las Fuerzas Armadas (ESPE)
+Enrique Abel Morales Moncayo, Ph.D. (eamorales5@espe.edu.ec) - Universidad de las Fuerzas Armadas (ESPE)
 
-Anastasia Athanasiou (anaj.athanasiou@gmail.com) - Concordia University
+Anastasia Athanasiou, Ph.D. (anaj.athanasiou@gmail.com) - Concordia University
 
 # Log
 
