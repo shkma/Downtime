@@ -20,12 +20,13 @@ Anastasia Athanasiou, Ph.D. (anaj.athanasiou@gmail.com) - Concordia University
 
 # Notes
 
-The folder contains MATLAB codes that computes the following values that are the results of seismic downtime assessment of seismically isolated buildings with SCBF designed by RI=2 and TFP-1 based on Conditional Spectra approach (notations are explained in the manuscript):
+The main file "calc_SeismicDowntimeEstimation.m" performs the downtime assessment of seismically isolated building with SCBF designed by RI=2 and TFP-1 (notations are explained in the manuscript). It produces the following output:
 
 - Downtime vulnerability curves
 - Mean mobilization times
 - Expected annual downtime (EADT)
 - Expected annual downtime losses (EADTL)
+- Probabilities for different colors of tags
  
 To implement this example code, you need to download the data of results of nonlinear seismic response analysis from the following link:
 
