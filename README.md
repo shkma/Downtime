@@ -1,4 +1,4 @@
-# Downtime Assessment of Seismically Isolated Buildings
+# MATLAB code for downtime assessment of seismically isolated buildings
 
 This repository contains downtime assessment files programmed in MATLAB (version 9.10.0.1649659 (R2021a) Update 1; The MathWorks, Inc).
 
