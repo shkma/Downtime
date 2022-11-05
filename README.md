@@ -1,6 +1,6 @@
 # MATLAB code for downtime assessment of seismically isolated buildings
 
-This page is the online repository for the following journal article: Kitayama, S., Moncayo, EAM., Athanasiou, A. (2023). "Inspection and repair considerations for downtime assessment of seismically isolated buildings." Soil Dynamics and Earthquake Engineering. https://doi.org/10.1007/s10518-021-01274-y
+This page is the online repository for the following journal article: Kitayama, S., Moncayo, EAM., Athanasiou, A. (2023). "Inspection and repair considerations for downtime assessment of seismically isolated buildings." Soil Dynamics and Earthquake Engineering. https://doi.org/10.1016/j.soildyn.2022.107618
 
 This repository contains downtime assessment files programmed in MATLAB (version 9.10.0.1649659 (R2021a) Update 1; The MathWorks, Inc).
 
